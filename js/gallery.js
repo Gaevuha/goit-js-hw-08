@@ -100,7 +100,7 @@ boxGallety.addEventListener("click", function (event) {
 
 
     const instance = basicLightbox.create(`
-    <img src="${largeImg}" width="1200" height="640">
+    <img src="${largeImg}" width="800" height="600">
 `);
 
 instance.show();
