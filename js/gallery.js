@@ -73,16 +73,6 @@ const markup = images
 gallery.insertAdjacentHTML("afterbegin", markup);
 
 
-const imgLinks = document.querySelectorAll('.gallery-link');
-
-imgLinks.forEach(link => {
-
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-    });
-
-});
-
 const boxGallety = document.querySelector("ul.gallery");
 
 
